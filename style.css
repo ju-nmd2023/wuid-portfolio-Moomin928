@@ -1,7 +1,14 @@
+html {
+    background-color: #c8e8e9;
+}
+
 .header {
-    width: 1500px;
+    width: 1450px;
     margin-top: 0px;
     margin-right: 0px;
+    justify-content: center;
+    display: block;
+
 
 }
 
@@ -42,6 +49,77 @@
     line-height: 27px;
     font-size: 19px;
     text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px 60px 40px 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0 0.2);
+}
+
+.container.right-side {
+    width: 75%;
+    margin-left: 75px;
+    justify-content: center;
+}
+
+.topic {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3e2093;
+
+}
+
+.input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px, 1;
+
+
+
+}
+
+
+
+
+.input-box input,
+.input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background-color: #f0f1f8;
+    padding: 0 15px;
+    resize: none;
+
+}
+
+.input-message-box {
+    min-height: 110px;
+
+}
+
+.button [type="button"] {
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #3e2093;
+    transition: all 0.3s ease;
+
+
+}
+
+.button:hover {
+    background-color: #5029bc;
+    width: 10%;
 }
 
 .nav li active,
