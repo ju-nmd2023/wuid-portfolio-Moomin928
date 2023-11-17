@@ -146,3 +146,241 @@ html {
     font-family: 'Playpen Sans', cursive;
 
 }
+
+/*Prjoct design structure */
+
+.project {
+
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project :nth-child(1) {
+
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project :nth-child(2) {
+
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project :nth-child(3) {
+
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project :nth-child(4) {
+
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project :nth-child(5) {
+
+
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project :nth-child(6) {
+
+
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+#{
+ font-size: 12px;
+color: black;
+
+
+}
+
+.Introduction h3 {
+    text-align: center;
+}
+
+.Introduction h3 a {
+
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.Introduction a active,
+.Introduction a:hover {
+    border-bottom: 2px solid #00a4ff;
+
+
+}
+
+
+
+.project-container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-content {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project-content2 {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project-content3 {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.project-content4 {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project-content5 {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project-content6 {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project-content7 {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project-content8 {
+    border: 5px solid #bebebe;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project-detail {
+    border: 1px solid gainsboro;
+    background-color: #bebebe;
+    border-radius: 2ch;
+}
+
+.project-detail p {
+    font-size: 19px;
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+
+@media screen and (min-width:350px) {
+    .header {
+        width: 100%;
+        display: block;
+        padding: 2px;
+        margin-top: 0px;
+        margin-right: 0px;
+        justify-content: center;
+        display: block;
+
+
+    }
+
+
+
+    .nav li a {
+        font-size: 11px;
+        display: block;
+        align-content: flex-end;
+    }
+
+    .More p {
+        text-align: justify;
+        font-size: 12px;
+        font-family: 'Playpen Sans', cursive;
+        margin: 10px;
+        padding: 5px;
+
+    }
+
+    .Hobby p {
+        text-align: justify;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+
+    }
+
+    .game :nth-last-child(1) {
+        width: 280px;
+        margin-right: 10px;
+        padding: 10px;
+
+
+
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .footer2 {
+        font-size: 13px;
+
+
+    }
+}
