@@ -1,5 +1,7 @@
 html {
     background-color: #c8e8e9;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -156,13 +158,17 @@ html {
     display: flex;
     flex-wrap: wrap;
 
+
+
 }
 
 .project :nth-child(1) {
 
 
+
     padding: 10px;
     margin: 10px;
+
 
 }
 
@@ -384,3 +390,41 @@ color: black;
 
     }
 }
+
+/*animation */
+.animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.ul {
+    position: relative;
+    display: flex;
+    height: 200px;
+}
+
+.ul::after {
+    content: "LOVE";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: darkturquoise;
+    font-size: 30px;
+    font-weight: 700;
+    transform: translate(-50%, -700%)
+}
+
+.li {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.li :nth-child(1) {
+    color: #00a4ff;
+}
+
+@keyframes identifier {}
