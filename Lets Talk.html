@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="js/main.js" defer></script>
+
 </head>
 
 <body>
@@ -32,22 +34,20 @@
 
             </div>
             <form action="#">
-                <div class="input-box">
-                    <input type="text" required placeholder="Enter your name"><br>
+                <div class="input-box name">
+                    <input id="username" ,type="text" placeholder="Enter your name"><br>
                 </div>
                 <br>
-                <div class="input-box">
-                    <input type="text" required placeholder="Enter your email"><br>
+                <div class="input-box email">
+                    <input id="email" ,type="text" placeholder="Enter your email"><br>
                 </div>
                 <br>
                 <div class="input-box message-box"><br>
-                    <textarea name=""></textarea><br>
+                    <textarea id="message" ,name=""></textarea><br>
                 </div>
                 <br>
                 <br>
-                <div class="button">
-                    <input type="button" value="Send now">
-                </div>
+                <button id="sendButton" val="Send">Send message</button>
             </form>
 
         </div>
